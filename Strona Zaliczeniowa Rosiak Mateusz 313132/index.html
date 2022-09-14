@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="	UTF-8">
+	<title>HIP AND RAP</title>
+	<meta name="description" content="Strona na temat polskiego rapu" />
+	<meta name="author" content="Rosiak Mateusz" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">	
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="./stronagłówna/css/fontello.css" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/podstrona1.css">
+    <link rel="stylesheet" href="./podstrona1/css/fontello.css" type="text/css">
+
+	<script src="javascript/timer.js"></script>
+	<script src="javascript/data.js"></script>
+    <script src="javascript/czytajdalej.js"></script>
+    <script src="javascript/czytajdalej1.js"></script>
+    <script src="javascript/czytajdalej2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="javascript/menu.js"></script>
+
+
+
+</head>
+
+<body class="container-fluid" onload=odliczanie();data();>
+
+<header class="row"> <!--Klasa row odpowiada za robienie kolumn -->
+    
+    <div class="data col">
+            <p id="data"></p>
+        </div>
+
+        <div class="tytul col">
+            H&R
+        </div>
+
+        <div class="zegar col">
+            <p id="zegar"></p>
+    </div>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="podstrona1.html">Twórcy</a>
+                
+            </li>    
+            <li><a href="podstrona2.html">Nagrody</a>
+
+            </li>
+            <li><a href="podstrona3.html">TOP Utwory</a>
+
+            </li>
+            <li><a href="podstrona4.html">Ameryka</a>
+
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+    <article>
+        <h3 class="tytuly">SBM Festival</h3>
+        <p class="tekst"> 
+            SBM Label – polska wytwórnia hip-hopowa z siedzibą w Warszawie, do 2018 roku funkcjonująca pod nazwą SB Maffija Label[1]. Wśród zakontraktowanych artystów wytwórni znajdują się m.in. raperzy Solar, Białas, Bedoes, White 2115, Beteo, Jan-Rapowanie, Mata, Adi Nowak, Kinny Zimmer, Fukaj, Janusz Walczuk, zespół Kacperczyk, Nypel oraz producent muzyczny Lanek i Dj Johny
+
+            <span id="kropki">...</span><span id="wiecej">
+                Dawniej do SBM Label należeli również: ADM (odszedł w prawdopodobnie po wydaniu swojego albumu), Neile (odszedł w kwietniu 2017 r.), duet Avi & Louis Villain (odeszli w lutym 2018), Got Barss (odszedł w 2018 r.), Wiatr (odszedł w czerwcu 2019 r.), Nowak vel Nowaczyński (Flint) (odszedł prawdopodobnie po wydaniu swojego pierwszego albumu), Deemz (odszedł w 2019 r.), Nocny (odszedł w lutym 2020 r.), Zui (odeszła z końcem sierpnia 2020), oraz Moli (odszedł w październiku 2021)[2]. Założycielami wytwórni są raperzy Solar i Białas. Pierwszym albumem wydanym nakładem wytwórni jest „Z Ostatniej Ławki” Solara I Białasa.
+            </span>  
+            <button onclick="czytajwiecej()" id="przycisk" class="wygl">Czytaj Dalej</button>  
+        </p>
+
+    </article>
+
+    <article>
+        <h3 class="tytuly">Polish Hip-Hop Festival</h3>
+        <p class="teksty"> 
+            Celem trzydniowej imprezy jest stworzenie największego w Polsce festiwalu przedstawiającego kulturę hip - hop w jego pełnym spektrum. Festiwal ten będzie wyraźnie wyróżniał się od innych imprez muzycznych odbywających się w Polsce. Dynamiczny, interesujący i różnorodny program z udziałem największych polskich gwiazd tego nurtu pozwoli stworzyć wyjątkowe zjawisko artystyczne.
+
+            <span id="kropki1">...</span><span id="wiecej1">
+                Polish Hip-Hop Festival ma ścisły związek ze wszystkimi największymi i najpopularniejszymi wytwórniami muzycznymi w naszym kraju oraz kilkoma innymi niezależnymi labelami muzycznymi.
+                Jednym z głównych założeń festiwalu jest stworzenie jedynego prestiżowego festiwalu poświęconego muzyce hip-hop w naszym kraju.
+            </span>  
+            <button onclick="czytajwiecej1()" id="przycisk1" class="wygl">Czytaj Dalej</button>  
+        </p>
+
+    </article>
+
+    <article>
+        <h3 class="tytuly">QueFestival</h3>
+        <p class="teksty"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis facilisis aliquam. Pellentesque vehicula turpis vitae tristique tincidunt. Donec magna est, commodo non nunc a, dictum posuere est. Donec lectus lectus, semper non justo at, congue mattis lorem. Nunc interdum tempor ipsum sit amet scelerisque. Curabitur viverra aliquam metus a rhoncus. Nullam interdum finibus sapien at varius. Fusce dui nisl, vehicula sit amet purus vitae, pretium sollicitudin odio.Nunc non mi nulla. Aenean scelerisque sodales arcu, nec pharetra sapien imperdiet quis.
+
+            <span id="kropki2">...</span><span id="wiecej2">
+                 a ullamcorper ligula. Pellentesque tellus elit, faucibus quis tincidunt non, scelerisque et ipsum. Maecenas bibendum finibus nunc, a iaculis ante pharetra eget. Sed dolor purus, eleifend non ipsum sit amet, tempor bibendum velit. Aenean molestie scelerisque justo, et dictum ligula posuere vel. Suspendisse tincidunt lorem at elit convallis vestibulum. Vivamus sed erat ultrices, pellentesque nulla quis, ullamcorper massa. Quisque semper velit leo, a tempus est tempus eget. Fusce dapibus tortor arcu, et tincidunt sapien egestas laoreet. Vivamus ac elit in eros egestas dictum nec nec nisl. Morbi viverra enim id quam tempor, vel aliquam felis viverra. Nam placerat erat et euismod consectetur. Curabitur a mattis magna, sit amet laoreet justo. Maecenas auctor a lacus tempor vestibulum. Curabitur egestas aliquet viverra. Nulla sed mi vitae orci accumsan interdum.
+            </span>  
+            <button onclick="czytajwiecej2()" id="przycisk2" class="wygl">Czytaj Dalej</button>  
+        </p>
+    </article>
+
+</main>
+
+<div class="socials">
+    <div class="socialdivs centering">
+            <div class="spotify">
+                <a href="http://spotify.com" target="_blank" class="sociallink"><i class="icon-spotify"></i></a>
+            </div>
+            <div class="ig">
+                <a href="http://instagram.com" target="_blank" class="sociallink"><i class="icon-instagram-1"></i></a>
+            </div>
+            <div class="yt">
+                <a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+            </div>
+            <div class="sc">
+                <a href="http://soundcloud.com" target="_blank" class="sociallink"><i class="icon-soundcloud"></i></a>
+            </div>
+            <div style="clear: both;"></div>
+    </div>
+</div>
+
+<footer class="centering">
+    <marquee behavior="scroll" direction="right">Rosiak Mateusz Prawa zastrzeżone&copy;</marquee>
+</footer>
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+html
+{
+    height: 100%;
+    margin: 0; 
+}
+
+body
+{
+    background-color: beige;
+    color: black;
+    margin: auto; /*Automatyczne maeginesy*/
+    flex-direction: column; /*rozkładanie w kolumnach pionowo*/
+    display: flex; /*ustala że blok jest wyświetlany jako flex*/
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #FFF6EA, #F1DDBF);
+    background-repeat: no-repeat; /*niepowtarzanie tła*/
+    background-attachment: fixed;/*unieruchomienie tła*/
+}
+
+.data
+{
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    color: black;
+    font-family: 'Shojumaru', cursive;
+}
+
+.tytul
+{
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+    color: black;
+    font-family: 'Shojumaru', cursive;
+}
+
+.zegar
+{
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    color: black;
+    font-family: 'Shojumaru', cursive;
+
+}
+
+nav
+{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    min-height: 38px;
+    line-height: 200%;
+}
+
+.menu li
+{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+     border: 1px solid black; */
+}
+
+.menu > li:first-child
+{
+	 border-left: 1px solid black; */
+}
+
+.menu a
+{
+	color: black;
+	text-decoration: none;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.menu a:hover
+{
+    color: red;
+}
+
+.centering
+{
+    display: flex;
+    justify-content: center;
+}
+
+.socials
+{
+    width: 100%;
+    text-align: center;
+}
+
+.socialdivs
+{
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.spotify
+{
+    margin: 3%;
+    float: left; 
+    color: white;
+    
+}
+
+.spotify:hover
+{
+    background-color: #1DB954;
+}
+
+.yt
+{
+    margin: 3%;
+    float: left; 
+    color: white;
+}
+
+.yt:hover
+{
+    background-color: #FF0000;
+}
+
+.sc
+{
+    margin: 3%;
+    float: left; 
+    color: white;
+}
+
+.sc:hover
+{
+    background-color: #ff8800;
+}
+
+.ig
+{
+    margin: 3%;
+    float: left; 
+    color: white;
+}
+
+.ig:hover
+{
+    background-color: #C13584;
+}
+
+a.sociallink
+{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+}
+
+#wiecej
+{
+    display: none;
+}
+
+#wiecej1
+{
+    display: none;
+}
+
+#wiecej2
+{
+    display: none;
+}
+
+
+.wygl
+{
+    background-image: linear-gradient(180deg, #FFF6EA, #F1DDBF);
+    background-repeat: no-repeat; /*niepowtarzanie tła*/
+    background-attachment: fixed;/*unieruchomienie tła*/
+    color:black;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+footer
+{
+   margin-top: auto; 
+   font-weight: 700;
+}

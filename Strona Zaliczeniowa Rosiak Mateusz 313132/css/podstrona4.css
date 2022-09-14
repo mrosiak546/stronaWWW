@@ -1,0 +1,36 @@
+.wygl1
+{
+    background-image: linear-gradient(180deg, #FFF6EA, #F1DDBF);
+    background-repeat: no-repeat; /*niepowtarzanie tła*/
+    background-attachment: fixed;/*unieruchomienie tła*/
+    color:black;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.wygl1:hover
+{
+    -webkit-box-shadow: 8px 8px 28px 0px rgba(47, 210, 204, 1);
+    -moz-box-shadow: 8px 8px 28px 0px rgba(47, 210, 204, 1);
+    box-shadow: 8px 8px 28px 0px rgba(47, 210, 204, 1);
+}
+
+.zdjecie
+{
+    height: 200px;
+    width: 200px;
+}
+
+.animacja2
+{
+    transition: all 6s ease-out;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.kolor2:hover
+{
+    background-color: white;
+}

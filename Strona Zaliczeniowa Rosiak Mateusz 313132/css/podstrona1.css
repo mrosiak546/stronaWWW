@@ -1,0 +1,117 @@
+
+.img:hover
+{
+    -webkit-box-shadow: 8px 8px 64px 7px rgba(123, 131, 190, 1);
+    -moz-box-shadow: 8px 8px 64px 7px rgba(123, 131, 190, 1);
+    box-shadow: 8px 8px 64px 7px rgba(123, 131, 190, 1);
+}
+
+
+.instagram
+{
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+
+.instagram:hover
+{
+    background-color: #C13584;
+    border-radius: 20px;
+    -webkit-box-shadow: 8px 8px 64px 7px rgba(193, 53, 132, 1);
+    -moz-box-shadow: 8px 8px 64px 7px rgba(193, 53, 132, 1);
+    box-shadow: 8px 8px 64px 7px rgba(193, 53, 132, 1);
+}
+
+.odstepy
+{
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+
+.tytuly
+{
+    font-family: 'Koulen', cursive;
+}
+
+.tekst
+{
+    font-family: 'Akshar', sans-serif;
+}
+
+.slider-inner img{
+    height: 200px;
+    width: 200px;
+}
+.slider-inner{
+    float: left;
+}
+  
+.slider-inner img{
+    display: none;
+}
+
+.slider-inner img.active{
+    display: inline-block;
+}
+
+.slider-inner img.active1{
+    display: inline-block;
+}
+  
+.prev, .next{
+    float: left;
+    margin-top: 25%;
+    cursor: pointer;
+    color: black;
+}
+  
+.prev{
+    position: relative;
+    z-index: 100;
+}
+.next{
+    position: relative;
+    z-index: 100;
+}
+
+.slider-inner img.active1{
+    display: inline-block;
+}
+
+.prev1, .next1{
+    float: left;
+    margin-top: 25%;
+    cursor: pointer;
+    color: black;
+}
+  
+.prev1{
+    position: relative;
+    z-index: 100;
+}
+.next1{
+    position: relative;
+    z-index: 100;
+}
+
+.slider-inner img.active2{
+    display: inline-block;
+}
+
+.prev2, .next2{
+    float: left;
+    margin-top: 25%;
+    cursor: pointer;
+    color: black;
+}
+  
+.prev2{
+    position: relative;
+    z-index: 100;
+}
+.next2{
+    position: relative;
+    z-index: 100;
+}

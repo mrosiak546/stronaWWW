@@ -1,0 +1,51 @@
+.animacja
+{
+    transition: all 4s ease-out;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.youtube
+{
+    height: 315;
+    width: 100%;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.youtube:hover
+{
+    background-color: #640000;
+}
+
+.tekst
+{
+    height: 315;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color:#00008b;
+}
+
+.tekst:hover
+{
+    background-color: #00468b;
+}
+
+.jeden:hover
+{
+    background-color: white;
+}
+
+.tytuly
+{
+    font-family: 'Koulen', cursive;
+}
+
+.teksty
+{
+    font-family: 'Akshar', sans-serif;
+}
